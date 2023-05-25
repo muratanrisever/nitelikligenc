@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Security;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +13,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+
             //-------------------VERI/TIPLERI----------------
 
             //int x = 40, y = 10;
@@ -213,7 +216,47 @@ namespace ConsoleApp2
 
             //Console.ReadKey();
 
+            //-------METHODLAR/FONKSÝYONLAR---------------
+
+            //CarpmaIslemi(2,4,6);
+            //Bolme(20, 5);
+            //Toplama(20, 5);
+            //Carpma(20, 5);
+            //Cikarma(20, 5);
 
         }
+
+        //public static void Bolme(int sayi1,int sayi2)
+        //{
+        //    int sonuc = sayi1 / sayi2;
+        //    Console.WriteLine("Bölme iþleminin sonucu : " + sonuc);
+        //    Console.ReadKey();
+        //}
+        //public static void Toplama(int sayi1, int sayi2) 
+        //{
+        //    int sonuc = sayi1 + sayi2;
+        //    Console.WriteLine("Toplama iþleminin sonucu : "+sonuc);
+        //    Console.ReadKey();
+        //}
+        //public static void Carpma(int sayi1, int sayi2) 
+        //{
+        //    int sonuc = sayi1 * sayi2;
+        //    Console.WriteLine("Çarpma iþleminin sonucu : " + sonuc);
+        //    Console.ReadKey();
+        //}
+        //public static void Cikarma(int sayi1, int sayi2) 
+        //{
+        //    int sonuc = sayi1 - sayi2;
+        //    Console.WriteLine("Çýkarma iþleminin sonucu : " + sonuc);
+        //    Console.ReadKey();
+        //}
+
+        //public static void CarpmaIslemi(int sayi3,int sayi4, int sayi5)
+        //{
+        //    int sonuc2 = sayi3 * sayi4 * sayi5;
+        //    sonuc2 = sayi3 * sayi4 * sayi5;
+        //    Console.WriteLine("Çýkarma iþlemi sonucu : "+sonuc2);
+        //    Console.ReadKey();
     }
+}
 }

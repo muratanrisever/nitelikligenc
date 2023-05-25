@@ -27,11 +27,11 @@ namespace ConsoleApp2
             //if (esitMi==true && (x==40 || y==10))
             //{
             //    x= y;
-            //    Console.WriteLine("x ve y birbirine eþittir.");
+            //    Console.WriteLine("x ve y birbirine eÅŸittir.");
             //}
             //else
             //{
-            //    Console.WriteLine("x ve y birbirine eþit deðildir.");
+            //    Console.WriteLine("x ve y birbirine eÅŸit deÄŸildir.");
             //}
             //Console.WriteLine(toplam);
             //Console.WriteLine(fark);
@@ -49,17 +49,17 @@ namespace ConsoleApp2
             //var password = Console.ReadLine();
             //var dogruMu = true;
             //if (userName == "admin" && password == "123456" && dogruMu==true) {
-            //    Console.WriteLine("Giriþ Baþarýlý");
+            //    Console.WriteLine("GiriÅŸ BaÅŸarÄ±lÄ±");
             //    Console.ReadLine();
             //}
             //else if (userName != "admin" || password != "123456" && dogruMu==false)
             //{
-            //    Console.WriteLine("Hatalý kullanýcý adý veya þifre.");
+            //    Console.WriteLine("HatalÄ± kullanÄ±cÄ± adÄ± veya ÅŸifre.");
             //    Console.ReadLine();
             //}
             //else if (userName != "admin" && password != "123456" && dogruMu == false)
             //{
-            //    Console.WriteLine("Lütfen bilgileri doðru girin!");
+            //    Console.WriteLine("LÃ¼tfen bilgileri doÄŸru girin!");
             //    Console.ReadLine();
             //}
             //else
@@ -73,18 +73,18 @@ namespace ConsoleApp2
             //switch (userName)
             //{
             //    case "admin" when password == "123456" && dogruMu == true:
-            //        Console.WriteLine("Giriþ Baþarýlý");
+            //        Console.WriteLine("GiriÅŸ BaÅŸarÄ±lÄ±");
             //        Console.ReadLine();
             //        break;
             //    default:
             //        if (userName != "admin" || password != "123456" && dogruMu == false)
             //        {
-            //            Console.WriteLine("Hatalý kullanýcý adý veya þifre.");
+            //            Console.WriteLine("HatalÄ± kullanÄ±cÄ± adÄ± veya ÅŸifre.");
             //            Console.ReadLine();
             //        }
             //        else if (userName != "admin" && password != "123456" && dogruMu == false)
             //        {
-            //            Console.WriteLine("Lütfen bilgileri doðru girin!");
+            //            Console.WriteLine("LÃ¼tfen bilgileri doÄŸru girin!");
             //            Console.ReadLine();
             //        }
             //        else
@@ -137,13 +137,13 @@ namespace ConsoleApp2
             //        sayi++;
             //    }
             //}
-            //Console.WriteLine("Tek sayýlarýn toplamý : "+tektoplam);
-            //Console.WriteLine("Çift sayýlarýn toplamý : "+cifttoplam);
+            //Console.WriteLine("Tek sayÄ±larÄ±n toplamÄ± : "+tektoplam);
+            //Console.WriteLine("Ã‡ift sayÄ±larÄ±n toplamÄ± : "+cifttoplam);
             //Console.ReadKey();
 
             //----------ORNEK-1----------
 
-            //2 farklý deðiþkene 50 ve 25 deðerleri atayýp ekrana alt alta ve yan yana yazdýran kodlarý yazýnýz.
+            //2 farklÄ± deÄŸiÅŸkene 50 ve 25 deÄŸerleri atayÄ±p ekrana alt alta ve yan yana yazdÄ±ran kodlarÄ± yazÄ±nÄ±z.
 
             //int x = 50;
             //int y = 25;
@@ -159,23 +159,23 @@ namespace ConsoleApp2
 
             //-------ORNEK-2-----------------------------------
 
-            //Klavyeden girilen sayýnýn tek mi çift mi oolduðunu bulan komutlarý yazýnýz.
+            //Klavyeden girilen sayÄ±nÄ±n tek mi Ã§ift mi oolduÄŸunu bulan komutlarÄ± yazÄ±nÄ±z.
 
-            //Ýfin yazýlýþ þekilleri
+            //Ä°fin yazÄ±lÄ±ÅŸ ÅŸekilleri
 
-            //Console.Write("Bir sayý giriniz : ");
+            //Console.Write("Bir sayÄ± giriniz : ");
             //var sayi = Convert.ToInt32(Console.ReadLine());
-            //var sonuc = sayi % 2 == 1 ? "Sayý tektir" : "Sayý çifttir";
+            //var sonuc = sayi % 2 == 1 ? "SayÄ± tektir" : "SayÄ± Ã§ifttir";
 
-            //Ýfin yazýlýþ þekilleri
+            //Ä°fin yazÄ±lÄ±ÅŸ ÅŸekilleri
 
             //if (sayi % 2 == 1) 
             //{
-            //    Console.WriteLine("Sayý tektir.");
+            //    Console.WriteLine("SayÄ± tektir.");
             //}
             //else
             //{
-            //    Console.WriteLine("Sayý çifttir.");
+            //    Console.WriteLine("SayÄ± Ã§ifttir.");
             //}
             //Console.ReadKey();
 
@@ -198,7 +198,7 @@ namespace ConsoleApp2
 
             //----ARRAY--------
 
-            //----Bir dizinin içindeki tek sayýlarýn kaç tane olduðunu yazdýran consol uygulamasý-------
+            //----Bir dizinin iÃ§indeki tek sayÄ±larÄ±n kaÃ§ tane olduÄŸunu yazdÄ±ran consol uygulamasÄ±-------
             //int sayac = 0;
             //int[] sayilar = { 10, 15, 20, 33, 22, 11, 9, 8, 48, 47, 12, 25, 12, 21 };
             //int toplam = 0;
@@ -212,42 +212,42 @@ namespace ConsoleApp2
             //    }
 
             //}
-            //Console.WriteLine("Tek sayý adeti= " + sayac);
+            //Console.WriteLine("Tek sayÄ± adeti= " + sayac);
 
             //Console.ReadKey();
 
-            //-------METHODLAR/FONKSÝYONLAR---------------
+            //-------METHODLAR/FONKSÄ°YONLAR---------------
 
             //CarpmaIslemi(2,4,6);
             //Bolme(20, 5);
             //Toplama(20, 5);
             //Carpma(20, 5);
             //Cikarma(20, 5);
-
+            
         }
 
         //public static void Bolme(int sayi1,int sayi2)
         //{
         //    int sonuc = sayi1 / sayi2;
-        //    Console.WriteLine("Bölme iþleminin sonucu : " + sonuc);
+        //    Console.WriteLine("BÃ¶lme iÅŸleminin sonucu : " + sonuc);
         //    Console.ReadKey();
         //}
         //public static void Toplama(int sayi1, int sayi2) 
         //{
         //    int sonuc = sayi1 + sayi2;
-        //    Console.WriteLine("Toplama iþleminin sonucu : "+sonuc);
+        //    Console.WriteLine("Toplama iÅŸleminin sonucu : "+sonuc);
         //    Console.ReadKey();
         //}
         //public static void Carpma(int sayi1, int sayi2) 
         //{
         //    int sonuc = sayi1 * sayi2;
-        //    Console.WriteLine("Çarpma iþleminin sonucu : " + sonuc);
+        //    Console.WriteLine("Ã‡arpma iÅŸleminin sonucu : " + sonuc);
         //    Console.ReadKey();
         //}
         //public static void Cikarma(int sayi1, int sayi2) 
         //{
         //    int sonuc = sayi1 - sayi2;
-        //    Console.WriteLine("Çýkarma iþleminin sonucu : " + sonuc);
+        //    Console.WriteLine("Ã‡Ä±karma iÅŸleminin sonucu : " + sonuc);
         //    Console.ReadKey();
         //}
 
@@ -255,8 +255,7 @@ namespace ConsoleApp2
         //{
         //    int sonuc2 = sayi3 * sayi4 * sayi5;
         //    sonuc2 = sayi3 * sayi4 * sayi5;
-        //    Console.WriteLine("Çýkarma iþlemi sonucu : "+sonuc2);
+        //    Console.WriteLine("Ã‡Ä±karma iÅŸlemi sonucu : "+sonuc2);
         //    Console.ReadKey();
     }
-}
 }
